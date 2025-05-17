@@ -1,0 +1,69 @@
+
+  "name": "BWM-XMD-QUANTUM",
+  "description": "Best WhatsApp bot developed by Ibrahim Adams",
+  "keywords": ["bot", "node", "baileys", "whatsapp"],
+  "logo": "https://files.catbox.moe/2kcb4s.jpeg",
+  "repository": "https://github.com/ekitale/maths-project",
+  "success_url": "/",
+  "stack": "heroku-24",
+  "env": {
+    "PREFIX": {
+      "description": "Choose your prefix for your bot",
+      "value": ".",
+      "required": true
+    },
+    "AUTO_REJECT_CALL": {
+      "description": "Enter yes for your bot to auto reject calls",
+      "value": "no",
+      "required": false
+    },
+    "AUTO_BIO": {
+      "description": "Enter yes for your bot to auto update bio",
+      "value": "yes",
+      "required": false
+    },
+    "AUTO_REPLY_STATUS": {
+      "description": "Enter yes for your bot to notify people that you have viewed there status",
+      "value": "no",
+      "required": false
+    },
+    "REPLY_STATUS_TEXT": {
+      "description": "Enter here your message for your bot to notify people that you have viewed there status",
+      "value": "ʏᴏᴜʀ sᴛᴀᴛᴜs ʜᴀᴠᴇ ʙᴇᴇɴ ᴠɪᴇᴡᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ✅",
+      "required": false
+    },
+    "AUTO_READ_STATUS": {
+      "description": "Your status will be read automatically (type yes to activate or no to deactivate)",
+      "value": "yes",
+      "required": false
+    },
+    "AUTO_DOWNLOAD_STATUS": {
+      "description": "Status will be sent to your inbox automatically (type yes to activate or no to deactivate)",
+      "value": "no",
+      "required": false
+    },
+    "AUTO_READ": {
+      "description": "Messages will be marked as read automatically (type yes to activate or no to deactivate)",
+      "value": "no",
+      "required": false
+    },
+    "BOT_NAME": {
+      "description": "Name for your bot",
+      "value": "BWM-XMD",
+      "required": false
+    },
+    "BOT_IMAGE": {
+      "description": "Image URL for your bot menu",
+      "value": "https://files.catbox.moe/h2ydge.jpg",
+      "required": false
+    },
+    "PUBLIC_MODE": {
+      "description": "Type yes for public mode or no for private mode",
+      "value": "yes",
+      "required": false
+    },
+    "HEROKU_API_KEY": {
+      "description": "Enter your Heroku API key to be able to control your vars",
+      "value": "",
+      "required": true 
+    },
