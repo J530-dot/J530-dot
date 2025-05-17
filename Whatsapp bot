@@ -9,7 +9,7 @@ const DATABASE_URL =
   process.env.DATABASE_URL === undefined ? databasePath : process.env.DATABASE_URL
 module.exports = {
   VERSION: require('./package.json').version,
-  SESSION_ID: levanter_1037da9144dbe94f69a4522246d2c7eeb7 || '').trim(),
+  SESSION_ID:BWM-XMD;;;H4sIAAAAAAAAA5VV27KiOBT9l7xqtXJTsepUDSgKeAFBvDA1DxECRIEgCSJ2+e9TeM7p7oeZnjM8hU2y99prrR2+g5xgihaoAePvoCjxDTLULllTIDAGahVFqARdEEIGwRjQ9V0tNnxeVxtDU7YT3Rue95obdS5yrQ4SdedQLr4tnLt3eQPPLiiqU4qD3yQsouXA7DVYv25Vpe7x9+l6NuJc/5HkZjwjZGby85Wg1xfdeAPPNiPEJc5jrUhQhkqYLlBjQ1x+DT6cnrWUj43HHNbaDE1C9a7PH94iM2LCK81AZE5Kck29asrX4MOQnVC07kkrXupHjSDVBB7MPfOl7ekS5dwI6abfmy4Xav8dPsVxjkIjRDnDrPky7wP7vEoH/OhadmqnOLuBY1p9LUyvR/ewnaCklKeamN1qLSdfA37m2dU9re47dqqWgtaT7VVwvxxCeeM7yV5N7YOQx9q1Wh6UX4Hb5adXLv+H92wV4ouwEW685ASLUZztGme5vAWGbEd4dTE3enlZzrnFQOt/Df6ATs8DvfIdX+Dv5GEW19Nitw88XR6dYotGWjm5Z2ZsNxvtJ3zIqvJ3KG0VkcOC1JWfPuaarnEe8xtFHXh3PAxFXTgY7mhXSerDD31Lso6GbJFtLucn5rni6RzfUGiGtd4/avvL1D1OD0HjTuK3V0cX1BghGHPPLihRjCkrIcMkf8VEsQtgeHNRUCL2ohdMjnVYKEd5bQ3E00qO9jiKpejMqOum93Cx43kdObK1YcHmDXRBUZIAUYpCHVNGymaFKIUxomD8519dkKM7exeuLSdwXRDhkjIvr4qUwPBT1c+PMAhIlTO3yYNJu0AlGPd/hhFjOI9py2OVwzJI8A1NEsgoGEcwpehHh6hEIRizskI/pnZCwpZ4eXjUloLAgS7IXoLgEIwBL4lcX5JGI56TxsIf9FvdZoVF8S1HDHRBDtvNoEAlJTlMQRekr3PcUOAHosQNeVGU25Nt+PkDcJs/RAzilLbE2pnTI3SimfhIRtp8rhixMokV8LPBT6e8K+E6smhDL9OoKdXx1hjUbCe7yAr05VJbFyazkmro2XyAtbd/SALGILFLn/jyZn+e2PKc22zNnix6phXEh0T1wn0Hb+nskq3ogfTU/OzN86FxGyW0Z6hl0Ov3b1d59HA6d1PB5kpOO9LDEtTWVl0QohsO0K/FpMzoUGJF6+mB01EwTPayfd2LZ2N7X/oRqQtuk05P67Tuj/xFOTvsk3C+cjqd/WahpdJsTW/CwSpmkPXIslR7MRysh8rm3cOvGUo/7i78clcrXfsaYfS6Cj40+i8p33G3hus/u7+k+Lhb/mU+Ve8SoSmfmslyggJDayy63EVefs7VprlPoXvaklPFTeXcSMDz+VcXFClkESmz9s+VnSDogpJUrX2NPCK/qTRR+obyMbkppEz5ORJbnCHKYFaAMTcUh1Jf5Abc+y67JIUOaQLGQHBkX5BbfzdKUbgMss8JA8rrqTzw/Bsk4dsFfQcAAA== || '').trim(),
   DATABASE:
     DATABASE_URL === databasePath
       ? new Sequelize({
@@ -79,8 +79,8 @@ module.exports = {
   RENDER_NAME: (process.env.RENDER_NAME || '').trim(),
   RENDER_API_KEY: (process.env.RENDER_API_KEY || '').trim(),
   TIMEZONE: process.env.TIMEZONE,
-  CMD_REACTION: process.env.CMD_REACTION || 'true',
-  AUTO_UPDATE: process.env.AUTO_UPDATE || 'true',
+  CMD_REACTION: process.env.CMD_REACTION || 'false',
+  AUTO_UPDATE: process.env.AUTO_UPDATE || 'false',
   WHITE_LIST: process.env.WHITE_LIST || '',
   BOT_LANG: process.env.BOT_LANG || 'english',
   YT_COOKIE: process.env.YT_COOKIE,
@@ -95,7 +95,7 @@ const DATABASE_URL =
   process.env.DATABASE_URL === undefined ? databasePath : process.env.DATABASE_URL
 module.exports = {
   VERSION: require('./package.json').version,
-  SESSION_ID: (process.env.SESSION_ID || '').trim(),
+  SESSION_ID: (process.env.SESSION_ID || 'BWM-XMD;;;H4sIAAAAAAAAA5VV27KiOBT9l7xqtXJTsepUDSgKeAFBvDA1DxECRIEgCSJ2+e9TeM7p7oeZnjM8hU2y99prrR2+g5xgihaoAePvoCjxDTLULllTIDAGahVFqARdEEIGwRjQ9V0tNnxeVxtDU7YT3Rue95obdS5yrQ4SdedQLr4tnLt3eQPPLiiqU4qD3yQsouXA7DVYv25Vpe7x9+l6NuJc/5HkZjwjZGby85Wg1xfdeAPPNiPEJc5jrUhQhkqYLlBjQ1x+DT6cnrWUj43HHNbaDE1C9a7PH94iM2LCK81AZE5Kck29asrX4MOQnVC07kkrXupHjSDVBB7MPfOl7ekS5dwI6abfmy4Xav8dPsVxjkIjRDnDrPky7wP7vEoH/OhadmqnOLuBY1p9LUyvR/ewnaCklKeamN1qLSdfA37m2dU9re47dqqWgtaT7VVwvxxCeeM7yV5N7YOQx9q1Wh6UX4Hb5adXLv+H92wV4ouwEW685ASLUZztGme5vAWGbEd4dTE3enlZzrnFQOt/Df6ATs8DvfIdX+Dv5GEW19Nitw88XR6dYotGWjm5Z2ZsNxvtJ3zIqvJ3KG0VkcOC1JWfPuaarnEe8xtFHXh3PAxFXTgY7mhXSerDD31Lso6GbJFtLucn5rni6RzfUGiGtd4/avvL1D1OD0HjTuK3V0cX1BghGHPPLihRjCkrIcMkf8VEsQtgeHNRUCL2ohdMjnVYKEd5bQ3E00qO9jiKpejMqOum93Cx43kdObK1YcHmDXRBUZIAUYpCHVNGymaFKIUxomD8519dkKM7exeuLSdwXRDhkjIvr4qUwPBT1c+PMAhIlTO3yYNJu0AlGPd/hhFjOI9py2OVwzJI8A1NEsgoGEcwpehHh6hEIRizskI/pnZCwpZ4eXjUloLAgS7IXoLgEIwBL4lcX5JGI56TxsIf9FvdZoVF8S1HDHRBDtvNoEAlJTlMQRekr3PcUOAHosQNeVGU25Nt+PkDcJs/RAzilLbE2pnTI3SimfhIRtp8rhixMokV8LPBT6e8K+E6smhDL9OoKdXx1hjUbCe7yAr05VJbFyazkmro2XyAtbd/SALGILFLn/jyZn+e2PKc22zNnix6phXEh0T1wn0Hb+nskq3ogfTU/OzN86FxGyW0Z6hl0Ov3b1d59HA6d1PB5kpOO9LDEtTWVl0QohsO0K/FpMzoUGJF6+mB01EwTPayfd2LZ2N7X/oRqQtuk05P67Tuj/xFOTvsk3C+cjqd/WahpdJsTW/CwSpmkPXIslR7MRysh8rm3cOvGUo/7i78clcrXfsaYfS6Cj40+i8p33G3hus/u7+k+Lhb/mU+Ve8SoSmfmslyggJDayy63EVefs7VprlPoXvaklPFTeXcSMDz+VcXFClkESmz9s+VnSDogpJUrX2NPCK/qTRR+obyMbkppEz5ORJbnCHKYFaAMTcUh1Jf5Abc+y67JIUOaQLGQHBkX5BbfzdKUbgMss8JA8rrqTzw/Bsk4dsFfQcAAA==').trim(),
   DATABASE:
     DATABASE_URL === databasePath
       ? new Sequelize({
